@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+section{
+  padding:3rem 9%;
+}
+
+.heading{
+  text-align:center;
+  margin-bottom:2rem;
+
+  span{
+    color:#fef6db;
+    font-size:2rem;
+  }
+
+  h1{
+    font-size:4rem;
+    color:#fef6db
+  }
+
+}
+
+.btn{
+  margin-top:1rem;
+  display:inline-block;
+  padding:1rem 3rem;
+  font-size:1.7rem;
+  color:#fef6db;
+  border:#111;
+  cursor:pointer;
+  background:none;
+
+  &:hover{
+    background:#fef6db;
+    color:#fef6db;
+  }
+}
+
+
+.btn {
+  display: inline-block;
+  background: #fcad02;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #f0d08a;
+}
+
+
+@media (max-width:991px){
+  html{
+    font-size:55%;
+  }
+
+  section{
+    padding:3rem 2rem;
+  }
+}
+
+  
+@media (max-width:450px){
+
+  html{
+    font-size:50%;
+  }
+
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .main {
+    height: 40rem;
+    padding-top: 5rem;
+    background-image: url("Assets/bg-ist.jpg");
+    background-size: cover;
+  }
+  
+  .main img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 10rem;
+  }
+  
+  .supporting {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 8rem;
+  }
+  
+  .supporting img {
+      height: 100%;
+    width: 20%;
+    margin-right: 5%;
+  }
+
+  .description{
+color: #fef6db;
+padding: 2rem;
+font-size: 12px;
+  }
+
+
+
+  

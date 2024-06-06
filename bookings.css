@@ -1,0 +1,100 @@
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+ 
+  section {
+    padding: 3rem 2rem;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+
+    section {
+      padding: 3rem 2rem;
+    }
+  }
+  @media (max-width: 768px) {
+    
+    .home {
+      margin-top: 10rem;
+    }
+    .home .content span {
+      font-size: 8vw;
+    }
+    .home .content h3 {
+      font-size: 9vw;
+    }
+  }
+  
+
+
+
+  
+.big-circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #3b4131, #fef6db);
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-40%, 38%);
+  }
+  
+  .big-circle1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #3b4131, #fef6db);
+    bottom: 50%;
+    right: 0; /* Move to the right edge of the page */
+    transform: translate(40%, 90%);
+  }
+  
+  .big-circle:after {
+    content: "";
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    top: calc(50% - 180px);
+    left: calc(50% - 180px);
+  }
+
+  
+.circle {
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, #fef6db);
+    position: absolute;
+  }
+  
+  .circle.one {
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
+  }
+  
+  .circle.two {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px;
+  }

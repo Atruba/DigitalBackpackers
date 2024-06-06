@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+#TR {
+    fill: #0f0;
+}
+#TR:hover {
+    fill: #008000;
+}
+#GB {
+    fill: #F00;
+}
+#GB:hover {
+    fill: #800000;
+}
+#GE {
+    fill: #FFF;
+}
+#GE:hover {
+    fill: #BBB;
+}
+#AU {
+    fill: #00F;
+}
+#AU:hover {
+    fill: #000080;
+}
+#JP {
+    fill: rgb(243, 32, 145);
+}
+#JP:hover {
+    fill: #853177;
+}
+#RU {
+    fill: rgb(217, 214, 21);
+}
+#RU:hover {
+    fill: #536404;
+    filter: blur(1.5px);
+    content: "Hover text here";
+}
+
+#lock {
+    content: "Text";
+    font-size: large;
+    cursor: pointer; /* Indicates clickable element */
+    transition: all 0.3s ease; /* Add transition for smoother effect */
+}
+
+section {
+    padding: 3rem 9%;
+}
+
+@media (max-width: 991px) {
+    .main-content html {
+        font-size: 55%;
+    }
+    .main-content section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-content html {
+        font-size: 50%;
+    }
+}
+
+.main-content *, .main-content *:before, .main-content  *:after {
+    box-sizing: inherit;
+}
+
+.main-content body {
+    background: #21252b;
+    color: #d3ddef;
+}
+
+.main-content .ag-canvas {
+    display: flex;
+    align-items: center;
+    position: relative;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.main-content .ag-canvas_svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin-left: 1rem;
+}
+
+.main-content .ag-canvas_svg path {
+    fill: #383d46;
+    fill-opacity: 1;
+    stroke: #21252b;
+    stroke-opacity: 1;
+    stroke-width: 0.5;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+    .main-content .ag-canvas {
+        flex-flow: row wrap;
+        height: auto;
+        padding: 4rem 1rem 1rem;
+    }
+    .main-content .ag-canvas_svg {
+        max-height: calc(100% - 6rem);
+        margin-left: 0;
+    }
+    .main-content .home {
+        margin-top: 10rem;
+    }
+    .main-content .home .content span {
+        font-size: 8vw;
+    }
+    .main-content .home .content h3 {
+        font-size: 9vw;
+    }
+}
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.social-icons a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of the social icons */
+    height: auto;
+}
+
+.info-box {
+    color: #fef6db;
+}
